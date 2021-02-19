@@ -27,7 +27,7 @@ SECRET_KEY = '(1pnpf3@ybi06_hf8q)4ju)#veae_vv4#u-e7@q-k^%u0_vm2x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://simple-shoppinglist.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['simple-shoppinglist.herokuapp.com', '127.0.0.1']
 
 CORS_ALLOW_HEADERS = list(default_headers) + [
     "Content-Type",
